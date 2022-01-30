@@ -1,0 +1,134 @@
+*{
+	font-family: "Times New Roman", "Times", serif !important;
+	
+}
+.bg-light {
+	background-color: #fff !important;
+}
+.navbar{
+	font-size: 20px !important;
+}
+.navbar-brand{
+	font-size: 20px !important;
+}
+.navbar-collapse {
+	justify-content: flex-end !important;
+}
+.home {
+	background-image: url("/images/ChristNightSky.jpg");
+	background-color: white;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center center;
+    	background-attachment: fixed;
+   	background-size: cover;
+}
+.scriptures-page {
+	background-image: url("/images/jesusCherryBlossoms.jpeg");
+	background-color: white;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center center;
+    	background-attachment: fixed;
+   	background-size: cover;
+}
+.talks-page {
+	background-image: url("/images/christinforest.jpeg");
+	background-color: white;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center center;
+    	background-attachment: fixed;
+   	background-size: cover;
+}
+
+.main_content{
+	display: flex;
+	margin-left: 15em;
+	margin-right: 15em;
+	margin-top: 8em;
+	flex-direction: column;
+}
+.welcome{
+	font-weight: bold;
+	font-size: 150px;
+	color: white;
+	text-align: center;
+}
+.main_text{
+	font-size: 30px;
+	color: white;
+	margin-left:3em;
+	margin-right:3em;
+	text-align: center;
+}
+.talk {
+	background-color: #add8e6;
+	margin: 3em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	width: 230px;
+}
+
+.theTalks {
+	display: flex;
+	margin-left: 10em;
+	margin-right: 10em;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.talk-image {
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 5px;
+	height: 250px;
+	width: 200px;
+}
+.talk-title {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.talk-link {
+	text-align: center;
+}
+.scriptures {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 3em;
+	list-style: none;
+	font-size: 20px;
+	color: black;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.scriptures:hover {
+	text-decoration:none;
+	background-color: pink;
+	color: white;
+	border: 1px solid black;
+}
+.scriptures-container {
+	display: flex;
+	margin: 2em;
+	flex-wrap: wrap;
+}
+.center {
+	align-self: center;
+}
+.about-me-page {
+	display: flex !important;
+	flex-direction: column !important;
+}
+.about-me-paragraph {
+	margin-top:2em;
+	width: 350px;
+	text-align: center;
+}
+.footer{
+	font-size:16px;
+	width: 100%;
+	height: 20px;
+	position: fixed;
+    	bottom: 0;
+    	width: 100%;
+	background-color: white;
+}
